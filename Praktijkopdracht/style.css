@@ -1,72 +1,115 @@
 ul {
-    display:flex;
-    list-style-type: none;
-    justify-content: center;
-    gap: 75px ;
-  }
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 75px;
+}
 
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  width: 100%;
 }
 
 ul li a {
-    margin: auto;
-    text-decoration: none;
-    color:rgb(0, 0, 0);
+  margin: auto;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: larger;
 }
 
 ul li {
-    transition: transform .15s;
-    padding: auto;
+  transition: transform 0.15s;
+  padding: auto;
 }
 
 ul :hover {
-    transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 h1 {
-    color:rgb(0, 0, 0);
-    padding: 100px 100px;
-    text-align: center;
-    font-size: 60px;
+  color: rgb(0, 0, 0);
+  padding: 50px 50px;
+  text-align: center;
+  font-size: 60px;
+  transition-duration: 0.4s;
 }
 
-
-img{
-    height: 200px;
+img {
+  height: 200px;
 }
 
-.foto{
-
-   display: grid;
-   margin: 100px;
-   grid-template-columns: 100px 100px 100px ;
-   justify-content: center;
-   justify-content: space-evenly;
+.foto {
+  display: grid;
+  margin: 100px;
+  grid-template-columns: 100px 100px 100px;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
-.foto :hover{
-
-    transition: transform .1s;
-    padding: auto;
-    transform: scale(1.3);
+.foto :hover {
+  transition: transform 0.1s;
+  padding: auto;
+  transform: scale(1.3);
 }
 
 iframe {
-    margin: auto;
-    display: grid;
-    justify-content: center;
-    padding: 25px;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  padding: 25px;
 }
 
 footer {
-    text-align: left;
-    
+  padding-top: 25%;
+  text-align: left;
 }
 
 .life {
-    display:flex;
-    list-style-type: none;
-    justify-content: center;
-    gap: 75px ;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  gap: 75px;
+}
+.about-txt {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+
+  padding-left: 20%;
+  padding-right: 20%;
+  /* padding to make smaller */
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid rgba(0, 141, 255, 255);
+}
+
+.button1:hover {
+  background-color: rgba(0, 141, 255, 255);
+  color: white;
+}
+
+.Button-pos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
 }
